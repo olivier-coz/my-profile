@@ -1,0 +1,93 @@
+body
+{
+    background-color:#343c46;
+	font-family: 'Arvo', serif;
+    
+}
+
+h1
+{
+    text-align: center;
+}
+
+
+h1, h2
+{
+	
+	font-family: 'Baloo 2', cursive;
+}
+
+h3 {
+	color:#6983aa;
+}
+
+p {
+	text-align:justify;
+}
+
+/* Custom design with class */
+
+a{
+	text-decoration:none;
+	color:#f4f4f4
+}
+
+.img-circle{
+	align:center;
+	border-radius:50%;
+    border: 3px black;
+	box-shadow: 0px 15px 35px rgba(0,0,0,0.8);
+}
+
+.img-center{
+	text-align:center;
+}
+
+.container{
+	width:700px;
+	margin:40px auto;
+}
+
+.card-white{
+	background-color:#f4f4f4;
+	padding: 40px;
+	box-shadow: 0px 15px 35px rgba(0,0,0,0.8);
+	border-radius: 4px;
+	margin: 20px;
+}
+
+.card-white:hover{
+	background-color:#e0fff0;
+}
+
+.btn-center{
+	text-align:center;
+}
+
+.btn-purple{
+	
+	background-color: #8566aa;
+	padding: 14px;
+	border-radius:6px;
+}
+
+.btn-purple:hover{
+	background-color: #343c46;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.logo-invert:hover{
+	filter: invert(100%);
+}
